@@ -18,7 +18,6 @@ public class Exercicio05 {
 		int idade = sc.nextInt();
 
 		while (idade != -1) {
-			// Leitura dos demais dados do habitante
 			System.out.print("Sexo (m/f): ");
 			String sexo = sc.next();
 

@@ -18,7 +18,7 @@ public class Exercicio06 {
 		String[][] numeroAlunoRespostas = new String[10][9];
 		for(int i = 0; i < numeroAlunoRespostas.length; i++) {
 			System.out.println("Digite o número do aluno " + (i+1));
-			numeroAlunoRespostas[i] = sc.nextLine().toUpperCase();
+			numeroAlunoRespostas[i] = sc.nextLine();
 			for(int j = 0; j < numeroAlunoRespostas[i].length; j++) {
 				System.out.println("Digite a resposta " + (j+1) + " do aluno " + i);
 				numeroAlunoRespostas[i][j] = sc.nextLine().toUpperCase();

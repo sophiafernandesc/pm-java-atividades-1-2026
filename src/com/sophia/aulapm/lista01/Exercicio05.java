@@ -27,7 +27,7 @@ public class Exercicio05 {
 			System.out.print("Cor dos cabelos (louros, castanhos, pretos): ");
 			String cabelos = sc.next();
 
-			// LÓGICA A: Determinar maior e menor idade
+			// A determinar maior e menor idade
 			if (idade > maiorIdade) {
 				maiorIdade = idade;
 			}
